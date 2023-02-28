@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>XYZ Informática</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css"/>
+	<link rel="icon" type="image/x-icon" href="fotos/icone.jpg"/>
+</head>
+<body>
+<header id="cabecalho">
+	<hgroup class="titulos">
+		<h1>Xyz informática</h1>
+		<h2>A melhor qualidade e o menor preço do Brasil.</h2>
+	</hgroup>
+	<nav class="menu">
+		<h3>Menu Principal:</h3>
+		<ol type="I" start="12">
+			<li><a href="index.html">Início</a></li>
+			<li><a href="hardware.html">Hardware</a></li>
+			<li><a href="software.html">Software</a></li>
+			<li><a href="servicos.html">Serviços</a></li>
+			<li><a href="localizacao.html">Localização</a></li>
+		</ol>
+	</nav>
+	<img src="fotos/localizacao.png" alt="Página de Localização"/>
+</header>
+
+<article id="conteudo-local">
+	<h1>Localização</h1>
+	<span class="texto">
+		<p>Visite-nos, temos uma equipe de profissionais treinada para atender os clientes com qualidade de serviço e agilidade</p>
+		<p>Será um prazer recebê-los em nosso enderço!</p>
+	</span>
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3486.1287467861976!2d-49.640782784906776!3d-29.10188018223492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9522163f89863cb7%3A0xc17d2dd5de33a10f!2sInstituto%20Federal%20Catarinense%20-%20C%C3%A2mpus%20Avan%C3%A7ado%20Sombrio%20-%20(%20IFC%20Sombrio%20)!5e0!3m2!1spt-BR!2sbr!4v1635946772191!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> <br><br>
+
+	<h1>Entre em Contato</h1>
+	<span class="texto"> 
+		<p>Preencha o formulário abaixo com os seus dados que entreremos em contato com você o mais breve possível</p>
+	</span>
+
+	<form class="contato">
+		<fieldset>
+		<legend>Identificação do Usuário</legend>
+			<p>Nome: <input type="text" size="25" maxlength="32" placeholder="Nome Completo"/></p>
+			<p>Senha: <input type="password" size="8" maxlength="8" placeholder="8 Dígitos"/></p>
+			<p>E-mail: <input type="email" size="20" maxlength="40" placeholder="Seu e-mail"/></p>
+		<fieldset class="sexo">
+			<legend>Sexo:</legend>
+				<input type="radio" name="sexo" checked/>Masculino </br>
+				<input type="radio" name="sexo"/>Feminino
+		</fieldset>
+			<p>Data de Nascimento:<input type="date"/></p>
+		</fieldset>
+
+		<fieldset>
+		<legend>Endereço do Usuário</legend>
+			<p>Logradouro: <input type="text" size="20" maxlength="100" placeholder="Rua, Av. Trav. Rod.">
+			</p>
+			<p>Número: <input type="number" placeholder="000" min="0" max="3000"a></p>
+			<p>Estado:
+				<select>
+					<optgroup label="Região Sul">
+						<option>Santa Catarina</option>
+						<option selected>Rio Grande do Sul</option>
+						<option>Paraná</option>
+					</optgroup>
+					<optgroup label="Região Sudeste">
+						<option>São Paulo</option>
+						<option>Rio de Janeiro</option>
+						<option>Minas Gerais</option>
+						<option>Espírito Santo</option>
+					</optgroup>
+				</select>
+			</p>
+			<p>Cidade: <input type="text" size="20" maxlength="40" placeholder="Porto Alegre"></p>
+		</fieldset>
+
+		<fieldset>
+		<legend>Mensagem do usuário</legend>
+			<p>Grau de urgência: Min<input type="range" min="0" max="10" step="2">Máx</p>
+			<p>Mensagem: <br>
+				<textarea cols="45" rows="5" placeholder="Deixe aqui tua mensagem."></textarea></p> <!-- Cols largura e rows altura da caixa -->
+		</fieldset>
+		<br>
+		<input type="submit" value="Limpar Dados">
+		<input type="submit" value="ENVIAR">
+	</form>
+
+</article>
+
+	<footer id="rodape">
+		<h5>Contato: xyzinfo@gmail.com 2021 &copy; XYZ Informática.</br> &bull; Todos os direitos
+		reservados &bull;</h5>
+	</footer>
+</body>
+</html>

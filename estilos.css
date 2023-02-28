@@ -1,0 +1,511 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+body {
+	background: url(fotos/fundo.jpg);	
+}
+
+/*formatações do cabeçalho */
+
+header#cabecalho {
+		border-bottom: solid 2px gray;
+}
+
+header#cabecalho img {
+	position: absolute;
+	top: 70px;
+	right: 80px;
+}
+
+hgroup.titulos h1 {
+	font-family: 'Style Script', cursive;
+	color: black;
+	text-decoration: underline;
+	font-size:  30pt;
+	margin-left: 70px ;
+}
+
+hgroup.titulos h2 {
+	font-family: 'Notable', sans-serif;
+	margin-left: 70px;
+	font-size: 15pt;
+}
+
+/* Formatações geral do corpo */
+
+article#conteudo {
+		background-color: white;
+		padding: 20px;
+		margin-left: 210px;
+		margin-right: 20px;
+}
+
+span.texto{
+	text-aling: justify;
+	text-indent: 25px;
+	font-size: 15pt;
+	color: blue;
+}
+
+/*Foto do globo */
+
+figure.fotos {
+	border: solid 8px black;
+	box-shadow: 6px 6px 6px blue;
+	text-align: center;
+	background-color: lightblue;
+	float: right;
+	width: 25%;
+	padding-top: 5px;
+}
+
+figure.fotos img {
+	border: solid 4px green;
+}
+
+figure.fotos h4 {
+	color: red;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* Final foto globo */
+
+/*Formatações do menu*/
+
+nav.menu ol {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0px;
+	right: 60px;
+}
+
+nav.menu h3 {
+	display: none;
+}
+
+nav.menu li {
+	display: inline-block;
+	background-color: lightgray;
+	padding: 10px;
+	margin:  3px;
+	border-radius: 10px;
+	transition: background-color 2s;
+}
+
+nav.menu li:hover {
+	background-color: darkgray;
+}
+
+nav.menu a  {
+	color: black;
+	text-decoration: none;
+}
+
+nav.menu a:hover {
+	color:  white;
+	text-decoration: underline;
+}
+
+/* Formatação do menu secundário */
+
+nav.lateral ol{
+	position: fixed;
+	list-style: none;
+	top: 170px;
+	left: -35px;
+}
+
+nav.lateral li {
+	box-shadow: 5px 5px 5px black;
+	text-align: center;
+	background-color: lightblue;
+	padding: 10px;
+	margin: 10px;
+	transition: padding-bottom 1s, background-color 5s, border-radius 5s, padding-top 1s; 
+}
+
+nav.lateral li:hover {
+	background-color: darkblue;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-radius: 40px;
+}
+
+nav.lateral a {
+	color: black;
+	text-decoration: none;
+}
+
+nav.lateral a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+/* Formatações da tabela de Geografia
+
+table.geografia {
+	border: solid 2px gray;
+}
+
+table.geografia td {
+	border: 2px solid red;
+	padding: 10px;
+	text-align: center;
+	transition: border-radius 3s;
+}
+
+table.geografia td:hover {
+	border-radius: 25px;
+	background-color: black;
+	color: white;
+}
+
+table.geografia figure.bandeira {
+	margin: 0px;
+}
+*/
+
+/* Formatação da tabela de produtos */
+
+table.produtos {
+	border: 1px solid green;
+	background-color: white;
+	border-spacing: 0px;
+	float: left;
+	margin: 10px;
+}
+
+table.produtos th {
+	border: solid black 1px;
+}
+
+table.produtos td {
+	border: 1px solid red;
+	text-align: center;
+	padding: 10px;
+	transition: border-radius 3s;
+}
+
+table.produtos td:hover{
+	background-color: black;
+	color: white;
+	border-radius: 25px;
+}
+
+table.produtos figure.hard {
+	margin: 0px;
+}
+
+/* Formatação dos vídeos */
+
+iframe.tube {
+	border: solid 2px black;
+	box-shadow: 5px 5px 5px black;
+}
+
+/*Formatações do rodape*/
+
+footer#rodape {
+		border-top:  solid 2px gray;
+		text-align: center;
+}
+
+
+/*formatações para secundário */
+
+iframe.posicao {
+	width: 1100px;
+	height: 350px;
+	border: none;
+}
+
+article#index-sec.html {
+	background-color: white;
+}
+
+body#sec {
+	background: none;
+}
+
+h1 { font-family: 'Style Script', cursive;
+	color: black;
+	text-decoration: underline;
+	font-size:  40pt;
+	margin-left: 20px;
+}
+
+/*formatações para página localização */
+
+article#conteudo-local {
+	background-color: white;
+	padding: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+article#conteudo-local h1 {
+	font-family: 'Style Script', cursive;
+	color: black;
+	text-decoration: underline;
+	font-size:  30pt;
+	margin-bottom: -20px;
+	margin-top: -20px;
+}
+
+form.contato {
+	width: 50%;
+	margin: auto;
+}
+
+fieldset.sexo {
+	width: 25%;
+}
+
+/* Formatações para o software */
+
+ul.album {
+	width: 1050px;
+	margin: auto;
+	padding: 50px;
+	list-style: none;
+	overflow: hidden;
+}
+
+ul.album li {
+	width: 300px;
+	height: 200px;
+	border: solid black 5px;
+	float: left;
+	margin: 10px;
+	text-align: center;
+}
+
+ul.album li.foto1 {
+	background: url(fotos/win11.jpeg) no-repeat;
+}
+
+ul.album li.foto2 {
+	background: url(fotos/linux.jpg) no-repeat;
+}
+
+ul.album li.foto3 {
+	background: url(fotos/antivirus.jpg) no-repeat;
+}
+
+ul.album li.foto4 {
+	background: url(fotos/office.jpeg) no-repeat;
+}
+
+ul.album li.foto5 {
+	background: url(fotos/html5-css3.jpg) no-repeat;
+}
+
+ul.album li.foto6 {
+	background: url(fotos/jogo.jpg) no-repeat;
+}
+
+
+/* Formatações para pagina servicos */
+
+article#conteudo-serv {
+	background: url(https://papeldeparededecore.com.br/2742-thickbox_default/papel-de-parede-colorido-degrade-em-rosa-azul-e-branco.jpg);
+	padding: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+h2.serv2 {
+	font-family: 'Fruktur', cursive;
+	margin-left: 15px;
+	font-size: 25pt;
+	margin-top: -10px;
+}
+
+h1.serv1 {
+	font-family: 'Style Script', cursive;
+	color: black;
+	text-decoration: underline;
+	font-size:  40pt;
+	margin-left: 20px;
+	margin-top: -20px;
+}
+
+span.centro {
+	text-align: center;
+}
+
+img.imglateralserv {
+	float: right;
+	margin: 20px;
+	border: solid 2px black;
+	margin-top: -5px;
+}
+
+img.imgprocessadorserv {
+	float: left;
+	width: 30%;
+	margin: 20px;
+	border: solid 2px black;
+	transition: all 2s;
+}
+
+img.imgprocessadorserv:hover {
+	width: 50%;
+}
+
+ul.listaserv {
+	text-aling: justify;
+	font-size: 15pt;
+	color: black;
+	text-indent: -5px; /* A tag text-ident delimita o recuo da primeira linha de textos em blocos */
+}
+
+img.imgabsoluteserv {
+	position: absolute;
+	right: 50px;
+	width: 35%;
+	border: solid 2px black;
+}
+
+iframe.vex {
+	border: solid 20px black;
+}
+
+/* Formatações do formulário de orçamento */
+
+form.orcamento {
+	width: 50%;
+	margin: auto;
+}
+
+form.orcamento fieldset {
+	color: blue;
+}
+
+form.orcamento h2 {
+	color: blue;
+}
+
+form.orcamento p {
+	font-size: 15pt;
+}
+
+
+/*Formatações da tabela computador */
+caption.titulo {
+    border: 5px solid black;
+    background-color: #ff9900;
+    text-shadow: 2px 2px 2px white;
+    font-size: 15pt;
+    transition: all 1.60s;
+    padding: 4px;
+}
+
+caption.titulo:hover {
+    letter-spacing: 25px; 
+    color: black;
+    background-color: lightblue;
+}
+
+table.comppc {
+    border: 3px solid black;
+    text-align: center;
+}
+
+table.comppc {
+    width: 600px;
+    border-spacing: 0px;
+    border: 3px solid black;
+}
+        /* TH */
+
+table.comppc th {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+    background-color: #31fb03;
+    text-decoration: underline;
+}
+      /* TH - HOVER */
+
+span.s1:hover{
+    color: white;
+}
+
+span.s2:hover{
+    color: #0800ff;
+}
+
+span.s3:hover{
+    color: #ff0000;
+}
+        /* TD */
+
+table.comppc td {
+    border: 1px solid black;
+    padding: 3px;   
+}
+
+table.comppc td.td1 {
+    background-color: #ffff00;
+    padding: 5px;
+    transition: border-radius 3s, background-color 2s, padding-top 1s, padding-bottom 1s;
+}
+
+table.comppc td.td2 {
+    background-color: #3030ff;
+    padding: 5px;
+    transition: border-radius 3s, background-color 2s, padding-top 1s, padding-bottom 1s;
+}
+
+table.comppc td.td11 {
+    background-color: #ffff00;
+    padding: 5px;
+    transition: border-radius 3s, background-color 2s, padding-top 1s, padding-bottom 1s;
+}
+
+table.comppc td.td21 {
+    background-color: #3030ff;
+    padding: 5px;
+    transition: border-radius 3s, background-color 2s, padding-top 1s, padding-bottom 1s;
+}
+
+
+
+     /* TD - HOVER */
+
+table.comppc td.td1:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    border-radius: 20px;
+    background-color: #d9d9d9;    
+}
+
+table.comppc td.td2:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    border-radius: 20px;
+    background-color: #d9d9d9;
+}   
+
+table.comppc td.td11:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    border-radius: 20px;
+    background-color: #ff0000;    
+}
+
+table.comppc td.td21:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    border-radius: 20px;
+    background-color: #ff0000;      
+}
